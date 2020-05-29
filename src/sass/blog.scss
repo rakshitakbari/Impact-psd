@@ -1,0 +1,58 @@
+#blog{
+    padding: 80px 0;
+    .post{
+        background: #f8f8f8;
+        overflow: hidden;
+        .post-img-content {
+            position: relative;
+            padding: 0;
+        }
+        .content {
+            padding: 25px 15px;
+            position: relative;
+            border-bottom: 4px solid #f0f0f0;
+            .post-title {
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 2px;
+                display: block;
+                text-transform: uppercase;
+                margin: 0 0 10px;
+                vertical-align: bottom;
+                z-index: 2;
+                position: relative;
+            }
+            p{
+                font-weight: 300;
+                line-height: 1.6;
+                font-size: 16px;
+                color: $black;
+            }
+            .read-more-wrapper {
+                margin: 25px 0 5px;
+                text-align: right;
+                font-weight: 300;
+                line-height: 1.6;
+                font-size: 16px;
+            }
+            .btn-outlined.btn-primary {
+                background: none;
+                border: 2px solid $theme-color;
+                color: $theme-color;
+            }
+            .btn {
+                padding: 10px 16px;
+                font-size: 13px;
+                letter-spacing: 2px;
+                border-radius: 0;
+                -webkit-transition: all .3s;
+                -moz-transition: all .3s;
+                transition: all .3s;
+                font-weight: 700;
+                text-transform: uppercase;
+                -webkit-box-shadow: none;
+                box-shadow: none !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.footer{
+    padding: 3em 0;
+    position: relative;
+    background: $black;
+    color: $white;
+    p{
+        a{
+            padding: 10px;
+            font-size: 20px;
+            color: $white;
+            -webkit-transition: .3s all;
+            transition: .3s all;
+            text-decoration: none;
+        }
+    }
+}

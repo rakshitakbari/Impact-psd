@@ -1,0 +1,189 @@
+#about-us{
+    background: #f8f8f8;
+    padding: 80px 0;
+    .about-details{
+        p{
+            margin: 0 0 10px;
+            font-weight: 400;
+            line-height: 1.6;
+            font-size: 16px;
+            color: $black;
+        }
+    }
+    .testimonial-list-item{
+        &:hover{
+            blockquote{
+                border-left: 4px solid $theme-color;
+            }
+        }
+        .pull-left {
+            float: left;
+        }
+        .quote-author-list {
+            max-width: 95px;
+            height: auto;
+            padding: 10px 0 10px 15px;
+            margin-right: 19px;
+            position: relative;
+        }
+        blockquote {
+            background-color: $white;
+            padding: 10px 20px;
+            margin: 0 0 20px;
+            font-size: 17.5px;
+            border-left: 5px solid #eee;
+            p{
+                margin: 0 0 10px;
+                font-size: 17.5px;
+                font-weight: 400;
+                line-height: 1.6;
+                color: $black;
+            }
+            small{
+                display: block;
+                font-size: 80%;
+                line-height: 1.42857143;
+                color: #777;
+                font-weight: 300;
+                cite{
+                    font-style: italic;
+                }
+            }
+        }
+    }
+    .team-member{
+        &:hover{
+            .team-content, .post:hover .content {
+                -webkit-transition: all .5s ease-in-out;
+                -moz-transition: all .5s ease-in-out;
+                -o-transition: all .5s ease-in-out;
+                -ms-transition: all .5s ease-in-out;
+                transition: all .5s ease-in-out;
+                border-bottom: 4px solid $theme-color;
+            }
+        }
+        .team-image {
+            position: relative;
+            padding: 0;
+            img{
+                border: none;
+            }
+            .img-thumbnail {
+                padding: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                overflow: hidden;
+                -webkit-transition: background .3s color .3s box-shadow .3s;
+                -moz-transition: background .3s color .3s box-shadow .3s;
+                transition: background .3s color .3s box-shadow .3s;
+            }
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                background: rgba(255, 255, 255, 0.9);
+                text-align: center;
+                vertical-align: middle;
+                -webkit-transition: opacity 300ms;
+                -moz-transition: opacity 300ms;
+                -o-transition: opacity 300ms;
+                transition: opacity 300ms;
+                .btn-outlined.btn-primary {
+                    background-color: $white;
+                    border-color: $white;
+                }
+                .preview {
+                    position: relative;
+                    top: 50%;
+                    display: inline-block;
+                    margin-top: -20px;
+                }
+                .btn {
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                    line-height: 37px;
+                    height: 40px;
+                    width: 40px;
+                    padding: 0;
+                    font-size: 13px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+    .btn-outlined.btn-primary {
+        background: none;
+        border: 2px solid $theme-color;
+        color: $theme-color;
+    }
+    .btn-social.btn-facebook {
+        border: 2px solid #4f7dd4;
+        color: #4f7dd4;
+        transition: 300ms;
+        &:hover{
+            background: #4f7dd4;
+            transition: 300ms;
+        }
+    }
+    .btn-social.btn-google-plus {
+        border: 2px solid #dc422b;
+        color: #dc422b;
+        transition: 300ms;
+        &:hover{
+           background: #dc422b;
+            transition: 300ms;
+        }
+    }
+    .btn-social.btn-twitter {
+        border: 2px solid #5bceff;
+        color: #5bceff;
+        transition: 300ms;
+        &:hover{
+           background: #5bceff;
+            transition: 300ms;
+        }
+    }
+    .btn-social.btn-linkedin {
+        border: 2px solid #21a6d8;
+        color: #21a6d8;
+        transition: 300ms;
+        &:hover{
+           background: #21a6d8;
+            transition: 300ms;
+        }
+    }
+    .team-content {
+        background: $white;
+        padding: 15px;
+        border-bottom: 4px solid #f0f0f0;
+        text-align: center;
+        h5 {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 400;
+            letter-spacing: 2px;
+            line-height: 1.1;
+            .role {
+                margin-top: 10px;
+                display: block;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1;
+                color: #777;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+            p{
+                margin: 0 0 10px;
+                font-weight: 300;
+                line-height: 1.6;
+                font-size: 16px;
+                color: $black;
+            }
+        }
+    }
+}

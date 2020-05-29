@@ -1,0 +1,32 @@
+.section-heading{
+    text-align: center;
+    margin-bottom: 50px;
+    h2{
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-size: 30px;
+        line-height: 1.1;
+        color: $black;
+    }
+    hr {
+        margin: 20px auto;
+        max-width: 330px;
+        opacity: 0.9;
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid $white;
+    }
+    p{
+        text-transform: uppercase;
+        margin: 0 0 10px;
+        font-weight: 300;
+        line-height: 1.6;
+        font-size: 16px;
+        color: #222;
+    }
+}
+.space{
+    @include media-breakpoint-down(md){
+        margin-bottom: 20px;
+    }
+}
